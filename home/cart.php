@@ -82,8 +82,7 @@ $userid = $_SESSION['userid'];
                                         value=<?= $item['prod_qty'] ?>> -->
 
 
-                                        <!-- <div class="w-7 h-7 text-xl font-light bg-gray-50 rounded-full border p-1 flex items-center justify-center cursor-pointer qtyIncr"  onclick="inc()" >+</div> -->
-                                    </div>
+                                      </div>
                                     <!-- quantity -->
 
                                     <div class="flex gap-1 items-center">
