@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+body {
+    background: #87CEEB;
+    color: #fff;
+}
+
+::selection {
+    color: #fff;
+    background: #87CEEB;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+
+.container form {
+    background: #fff;
+    padding: 30px 35px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container form .form-control {
+    height: 40px;
+    font-size: 15px;
+}
+
+.container form .forget-pass a {
+    font-size: 15px;
+}
+
+.container form .button {
+    background: #00BFFF;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.container form .button:hover {
+    background: #1E90FF;
+}
+
+.container form .link {
+    padding: 5px 0;
+}
+
+.container form .link a {
+    color: #6665ee;
+}
+
+.container .login-form form p {
+    font-size: 14px;
+}
+
+.container .row .alert {
+    font-size: 14px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.error{
+	color: #D8000C;
+	text-align: center;
+	background-color: #FFBABA;
+	background-image: url('https://i.imgur.com/GnyDvKN.png');
+    border: 1px solid;
+	margin: 10px 0px;
+	padding: 15px 10px 15px 50px;
+	background-repeat: no-repeat;
+	background-position: 10px center;
+}
+
+

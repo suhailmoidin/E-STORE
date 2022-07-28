@@ -1,0 +1,19 @@
+img {
+  max-width: 100%;
+}
+
+.nextArrowBtn {
+  position: absolute;
+  z-index: 1000;
+  top: 50%;
+  right: 0;
+  color: #ffffff;
+}
+
+.prevArrowBtn {
+  position: absolute;
+  z-index: 1000;
+  top: 50%;
+  left: 0;
+  color: #ffffff;
+}
