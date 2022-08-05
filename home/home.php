@@ -11,7 +11,7 @@ include('includes/header.php');
 <?php include('includes/navbar.php'); ?>
 
 <body>
-
+<!-content-->
     <!--shopping content-->
     <div class="container-fluid">
         <div class="banner_slider_wrap">
